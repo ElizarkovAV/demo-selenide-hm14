@@ -7,7 +7,7 @@ import pages.EventsPage;
 import pages.MainPage;
 import pages.MediaPage;
 
-@Tag("MTS Digital tests")
+@Tag("MTSDigital")
 public class MtsDigitalTests extends TestBase {
 
     MainPage mainPage = new MainPage();

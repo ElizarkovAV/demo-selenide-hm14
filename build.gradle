@@ -53,6 +53,6 @@ tasks.withType(Test) {
 
 task mtsdigital_remote_tests (type: Test) {
     useJUnitPlatform {
-        includeTags("MTS Digital tests")
+        includeTags("MTSDigital")
     }
 }
