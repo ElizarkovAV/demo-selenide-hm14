@@ -51,8 +51,8 @@ tasks.withType(Test) {
     }
 }
 
-task demoqa_remote_tests(type: Test) {
+task mtsdigital_tests (type: Test) {
     useJUnitPlatform {
-        includeTags("registration")
+        includeTags("MTS Digital tests")
     }
 }
