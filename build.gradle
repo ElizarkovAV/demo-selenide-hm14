@@ -51,7 +51,7 @@ tasks.withType(Test) {
     }
 }
 
-task mtsdigital_tests (type: Test) {
+task mtsdigital_remote_tests (type: Test) {
     useJUnitPlatform {
         includeTags("MTS Digital tests")
     }
