@@ -13,7 +13,7 @@ public class TestBase {
 
     @BeforeAll
     static void setUp() {
-        Configuration.baseUrl = "https://mts-digital.ru/";
+        Configuration.baseUrl = "https://mts-digital.ru";
 
         Configuration.browser = System.getProperty("browser", "chrome");
         Configuration.browserVersion = System.getProperty("browserVersion", "100.0");

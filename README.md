@@ -5,8 +5,8 @@
 * <a href='#jenkins'>Тесты в Jenkins</a>
 * <a href='#commands'>Консольные команды</a>
 * <a href='#allure'>Allure и Allure TestOps</a>
-* <a href='tg'>Отчетность в телеграмм бот</a>
-* <a href='video'>Пример видео прохождения тестов в Selenoid</a>
+* <a href='#tg'>Отчетность в телеграмм бот</a>
+* <a href='#video'>Пример видео прохождения тестов в Selenoid</a>
 
 <a id = 'tech'></a>
 ## Используемые технологии
@@ -72,5 +72,6 @@ clean ${TASK}
 После прохождения автотестов приходит сообщение в телеграмм бот
 <img src = "images/screens/tg.jpg"/>
 
+<a id = 'video'></a>
 ## Прохождение тестов в Selenoid
 <img src = "images/screens/selenoid.gif"/>

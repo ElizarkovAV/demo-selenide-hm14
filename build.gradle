@@ -19,11 +19,11 @@ allure {
     report {
         version.set("2.19.0")
     }
-    adapter { //отвечает за папку build\allure-results
+    adapter {
         aspectjWeaver.set(true)
         frameworks {
-            junit5 { //название фреймворка
-                adapterVersion.set("2.19.0") //версия интеграции фреймворка и Allure
+            junit5 {
+                adapterVersion.set("2.19.0")
             }
         }
     }
@@ -56,3 +56,4 @@ task mtsdigital_remote_tests (type: Test) {
         includeTags("MTSDigital")
     }
 }
+

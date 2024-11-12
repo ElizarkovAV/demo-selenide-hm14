@@ -14,7 +14,7 @@ public class MtsDigitalTests extends TestBase {
 
     @Test
     @DisplayName("Проверка отображения и содержания заголовка главной страницы")
-    void checkMainPageTitle() {
+    void checkMainPageTitleTest() {
         mainPage.openMainPage()
                 .checkPageTitle();
     }
@@ -39,7 +39,7 @@ public class MtsDigitalTests extends TestBase {
     @DisplayName("Открыть страницу Медиа по ссылки в шапке страницы. Проверить отображение заголовка  Медиа")
     void openMediaPageCheckTitleTest() {
         MediaPage mediaPage = mainPage.openMainPage()
-                                      .openMediaPageByHeaderLink();
+                .openMediaPageByHeaderLink();
         mediaPage.checkPageTitle();
     }
 
@@ -47,7 +47,7 @@ public class MtsDigitalTests extends TestBase {
     @DisplayName("Открыть страницу События по ссылке в шапке страницы. Проверить отображение заголовка События")
     void openEventsPageCheckTitleTest() {
         EventsPage eventsPage = mainPage.openMainPage()
-                                        .openEventsPageByHeaderLink();
+                .openEventsPageByHeaderLink();
         eventsPage.checkTitle();
     }
 }

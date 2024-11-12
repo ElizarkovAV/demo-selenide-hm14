@@ -12,14 +12,14 @@ import static com.codeborne.selenide.Selenide.open;
 public class MainPage {
 
     SelenideElement technologyHeaderSpan = $(byTagAndText("span", "Технологии")),
-    techPrinciplesLink = $(byAttribute("href", "/technology/tech_principles/")),
-    strategyLink = $(byAttribute("href", "/technology/strategy/")),
-    workWithUsHeaderSpan = $(byTagAndText("span", "Работа у нас")),
-    joinUsLink = $(byAttribute("href", "/career/join_us/")),
-    tourLink = $(byAttribute("href", "/career/tour/")),
-    pageTitle = $(byTagName("h1")),
-    mediaHeaderLink = $(byAttribute("href", "/media/")),
-    eventsHeaderLink = $(byAttribute("href", "/events/"));
+            techPrinciplesLink = $(byAttribute("href", "/technology/tech_principles/")),
+            strategyLink = $(byAttribute("href", "/technology/strategy/")),
+            workWithUsHeaderSpan = $(byTagAndText("span", "Работа у нас")),
+            joinUsLink = $(byAttribute("href", "/career/join_us/")),
+            tourLink = $(byAttribute("href", "/career/tour/")),
+            pageTitle = $(byTagName("h1")),
+            mediaHeaderLink = $(byAttribute("href", "/media/")),
+            eventsHeaderLink = $(byAttribute("href", "/events/"));
 
     @Step("Проверка отображения и содержания заголовка главной страницы")
     public MainPage checkPageTitle() {
@@ -30,7 +30,7 @@ public class MainPage {
 
     @Step("Открыть главную страницу")
     public MainPage openMainPage() {
-        open("");
+        open("/");
         return this;
     }
 
